@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ImageView style="@style/MainLogo" />
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_weight="1" android:padding="6dip">
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1">
+			<ImageButton android:scaleType="fitXY" android:id="@+id/button_ru"
+				style="@style/FeatureButton" android:src="@drawable/ru" />
+			<ImageButton android:scaleType="fitXY" android:id="@+id/button_twitter"
+				style="@style/FeatureButton" android:src="@drawable/twitter" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
